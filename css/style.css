@@ -70,14 +70,16 @@ main {
 }
 
 #img-1 h2 {
-    background-color: #ffffff3f;
+    background-color: #ede4e43f;
     background-position: center;
     top: 20px;
     color: white;
 }
-#background {
-    display: inline;
-
+#front-txt h2 {
+    font-size: 28px;
+    text-align: center;
+    padding: 8rem 70px 0 70px;
+    border-radius: 20px;
 }
 
 
@@ -384,7 +386,7 @@ footer {
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    padding: 60px;
+    padding: px;
 }
 .socialikon a{
     text-decoration: none;
@@ -500,7 +502,7 @@ footer {
     }
 
     footer {
-        padding-top: 40px;
+        padding-top: 50px;
     }
 
     #find {
@@ -538,7 +540,9 @@ footer {
     }
     #founder-section img{
         background-position: center;
-
+    }
+    .socialikon{
+        margin: 90px;
     }
 }
 
