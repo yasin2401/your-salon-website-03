@@ -33,6 +33,9 @@ header a {
     padding: 2px;
     color: #ffffff;
 }
+header a:hover{
+    color: rgb(22, 170, 123);
+}
 
 .page2 h1{
     text-align: center;
@@ -72,7 +75,8 @@ main {
     top: 20px;
     color: white;
 }
-.front-txt {
+#background {
+    display: inline;
 
 }
 
