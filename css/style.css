@@ -1,0 +1,716 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    padding: 20px;
+    z-index: 99;
+    align-items: baseline;
+    justify-content: space-between;
+    font-size: 15px;
+    
+}
+header a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 2px;
+    color: #ffffff;
+}
+header a:hover{
+    color: rgb(22, 170, 123);
+}
+
+.page2 h1{
+    text-align: center;
+    font-size: 30px;
+    background: #1b9b;
+}
+
+.active {
+    border-bottom: 1px solid #ffffff;
+    font-size: 10px;
+}
+
+#book-btn {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Main section1 */
+main {
+    display: block;
+    flex-direction: column;
+    flex: 1 0 auto;
+    padding-top: 28px;
+}
+
+#img-1 {
+    height: 550px;
+    width: 100%;
+    background: url("/img/img1010.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#img-1 h2 {
+    background-color: #ede4e43f;
+    background-position: center;
+    top: 20px;
+    color: white;
+}
+#front-txt h2 {
+    font-size: 28px;
+    text-align: center;
+    padding: 8rem 70px 0 70px;
+    border-radius: 20px;
+}
+
+
+
+/* section2 */
+
+#founder-section {
+width: 90%;
+margin: 20px auto;
+text-align: center;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
+
+#founder-txt {
+    border: solid;    
+}
+
+#founder-txt h2 {
+    padding: 20px;
+}
+
+
+#founder-txt p {
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+}
+
+.Our-prices {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.about-icon {
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    font-size: 20px;    
+}
+
+#founder {
+    background: url("/img/img123.jpg") no-repeat top center/cover;
+    border-radius: 30px;
+    width: 60vw;
+    height: 60vw;
+    margin: 60px;
+}
+
+.contact-p img{
+    border-radius: 50%;
+    width: 70%;
+    margin: auto;
+ }
+ .contact-p p{
+    padding: 40px;
+ }
+ .contact-form {
+    padding: 20px;
+ }
+
+ .contact-form h1 {
+    margin-bottom: 10px;
+}
+
+.contact-form-txt {
+    width: 100%;
+    height: 10px;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.contact-form-txt::placeholder{
+    color: #aaa;
+}
+
+.contact-form-txtarea {
+    width: 100%;
+    height: 130px;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.contact-form-txtarea::placeholder{
+    color: #aaa;
+}
+
+.contact-form-btn{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background: #1b9b;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+/*section3*/
+
+.ser {
+    margin: 30px;
+    
+}
+.ser div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-txts {
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+#cut-wash {
+    background: url("/img/pic-4.jpg") no-repeat top center/cover;
+    width: 80vw;
+    height: 80vw;
+    margin: auto;
+    border-radius: 20px; 
+}
+
+#cut-style {
+    background: url("/img/pic-33.jpg") no-repeat top center/cover;
+    width: 80vw;
+    height: 80vw;
+    margin: auto;  
+    border-radius: 20px;  
+}
+
+#Fix-beard {
+    background: url("/img/pic-2.jpg") no-repeat top center/cover;
+    width: 80vw;
+    height: 80vw;
+    margin: auto; 
+    border-radius: 20px;   
+}
+
+/* Book-side */
+
+
+#book2 {
+    background-color: rgb(96, 105, 108);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#book-price h3 {
+    padding: 20px 20px 20px 0;
+    
+}
+
+.book2-btn {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: px;
+    border: solid 2px;
+    border-radius: 10px;
+    background-color: #1b9b;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 90px;  
+}
+
+#book-price > div {
+    line-height: 20px;
+    margin: 0 30px 20px 30px;
+}
+
+/* Booking pages */
+.booking_title {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+#booking p {
+    padding: 10px 0 40px 0;
+}
+
+#booking {
+    padding: 20px 10% 0 10%;
+}
+
+#book-section {
+    max-width: 400px;
+    top: 150px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+#first_name {
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 0 5px;
+}
+
+#last_name {
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 0 5px;
+}
+
+#email_address {
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 0 5px;
+}
+
+#date {
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 0 5px;
+}
+
+#submit_button {
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: rgb(25, 26, 26);
+    color: #fafafa;
+}
+
+/* after submiting page */
+
+#check-icon {
+    color: rgb(43, 163, 43);
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#submited-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-if iframe{
+    width: 100%;    
+}
+.show-all{
+    font-size: 20px;
+    height: 30px;
+    border-radius: 10px;    
+}
+.show-all :hover{
+    background-color: white;
+}
+
+
+/*Footer*/
+
+
+footer {
+    background-color: #0b0b0b;
+}
+
+#social-networks {
+    width: 100%;
+    padding: 70px 30px 20px;
+    
+}
+.socialikon {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: px;
+}
+.socialikon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+.socialikon a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.;
+}
+
+.socialikon a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialikon a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+#find .open-info{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom:15px;
+}
+.footer-bottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footer-bottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media screen and (min-width: 768px) {
+    header a {
+        padding: 0 20px;
+    }
+
+    #front-txt h2 {
+        font-size: 32px;
+        text-align: center;
+        padding: 8rem 70px 0 70px;
+        border-radius: 20px;
+    }
+
+    #founder {
+        border-radius: 150px 0 0 150px;
+        width: 325px;
+        height: 500px;
+        float: left;
+    }
+
+    #founder-tab {
+        
+        margin-top: 50px;
+        padding-bottom: 90px;
+    }
+
+    #founder-txt {
+        padding-top: 80px;
+        padding-bottom: 40px;
+        margin-bottom: -60px;
+    }
+
+    #founder-txt h2, h4 {
+        text-align: left;
+    }
+
+    .about h3 {
+        font-size: 20px;
+    }
+
+    #service-section {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: auto;        
+    }
+
+    #cut-wash {
+        width: 40vw;
+        height: 30vw;
+    }
+    
+    #cut-style {
+        width: 40vw;
+        height: 30vw;
+    }
+    
+    #Fix-beard {
+        width: 40vw;
+        height: 30vw;
+    }
+
+    .service-txts {
+        width: 40vw;
+    }
+
+    footer {
+        padding-top: 50px;
+    }
+
+    #find {
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .open-info p {
+        padding: 10px;
+    }
+
+    #copy {
+        padding-top: 20px;
+    }
+
+    .book2-btn {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 20px;
+        border: solid rgb(96, 105, 108);
+        border-radius: 10px;
+        background-color: #1b9b;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        margin: 10px 90px;
+    }
+    .contact-form{
+        padding: 0 100px 0 100px;
+    }
+    #founder-section img{
+        background-position: center;
+    }
+    .socialikon{
+        margin: 90px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .active{
+        font-size: 20px;
+    }
+    a #book-btn{
+        font-size: 20px;
+    }
+    a:hover {
+        color: rgb(96, 202, 237);
+    }
+
+    #front-txt h2 {
+        font-size: 40px;
+    }
+    
+    #front-txt {
+        width: 80%;
+        padding-top: 2rem;
+    }
+
+    #background {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    #founder-section {
+       display: flex;
+       margin-bottom: 0;
+    }
+
+    .contact-p img{
+        width: 50%;
+    }
+
+    #founder {
+        height: 600px;
+        width: 400px;
+        border-radius: 150px 0 0 150px;
+        margin-left: 300px;
+    }
+
+    #founder-txt {
+       height: 600px;
+       margin-top: 60px;
+       margin-left: 500px;
+       margin-right: 300px;
+       padding-right: 25px;
+    }
+  
+
+    .about {
+        width: 100%;
+    }
+
+    .about h3 {
+        font-size: 50px;
+        padding-bottom: 80px;
+    }
+
+    .about-txt {
+        height: 300px;
+        width: 300px;
+        padding: 15px;
+        
+    }
+
+    #prise {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 80%;
+        align-items: center;
+        margin: auto;
+        
+    }
+    
+
+    #service-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 85%;
+        align-items: center;
+        margin: auto;
+
+    }
+
+    #cut-wash {
+        height: 350px;
+        width: 350px;
+        margin-top: 30px;
+        border-radius: 20px;
+    }
+
+    #cut-style {
+        height: 350px;
+        width: 350px;
+        margin-top: 30px;
+        border-radius: 20px;
+    }
+
+    #Fix-beard {
+        height: 350px;
+        width: 350px;
+        margin-top: 30px;
+        border-radius: 20px;
+    }
+
+    .service-txts {
+        width: 350px;
+    }
+
+    footer {
+        padding-top: 40px;
+        
+    }
+
+    #find {
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+        width: 80%;
+        align-items: center;
+        margin: auto;
+    }
+    
+    
+
+    .open-info p {
+        padding: 10px;
+    }
+
+    #copy {
+        padding-top: 90px;
+    }
+
+    /*book site*/
+
+    #book2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    #book-price {
+        margin: 0 20px;
+    }
+
+    .book2-btn {
+        margin: 10px 60px;
+    }
+
+    #booking {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
