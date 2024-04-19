@@ -31,7 +31,59 @@ On the next page (book now page) users find different services and treatments as
   * The About section informs about some services and payment alternatives.
      ![Skärmbild 2024-04-11 104609](https://github.com/yasin2401/your-salon-website-03/assets/156914039/049f4146-739e-4d1e-93d6-b5bad13d5988)
 
-    Followed by some services available to book.
-    ![Skärmbild 2024-04-15 214933](https://github.com/yasin2401/your-salon-website-03/assets/156914039/f1dd0d7c-4e12-49c6-bcb1-779cd35a5174)
+# Book Now (Second page)
+
+The booking page shows all services and their price as well as the booking form to book the time they want.
+
+![Skärmbild 2024-04-15 215510](https://github.com/yasin2401/your-salon-website-03/assets/156914039/96877567-348e-48a0-9c8a-350c8a1ac23a)
+![Skärmbild 2024-04-15 215529](https://github.com/yasin2401/your-salon-website-03/assets/156914039/3f428765-2627-4863-9de3-35c6dce5cbce)
+![Skärmbild 2024-04-15 220752](https://github.com/yasin2401/your-salon-website-03/assets/156914039/7295281e-47fb-44cf-be74-94c58efb36a0)
+
+
+# About Us/Contact8 Third page)
+On the third page there is about us contact, there is information about Henrik and a form where you can ask questions if you have.
+![Skärmbild 2024-04-15 221521](https://github.com/yasin2401/your-salon-website-03/assets/156914039/220110c5-9f9f-471b-b9b5-7c48d8fa8c0b)
+![Skärmbild 2024-04-15 221625](https://github.com/yasin2401/your-salon-website-03/assets/156914039/3ecd4ef5-397e-4666-a444-d52468fbfcea)
+
+![Skärmbild 2024-04-15 221724](https://github.com/yasin2401/your-salon-website-03/assets/156914039/4ce78d22-184b-43f1-a248-0bda9c2f54b2)
+
+# The contact section
+Kontaktsektionen följer samma färgtema på sidan och visar kontaktinformation och öppettider.
+Samt ikoner som länkar till olika sociala medier med upphovsrätt i slutet.
+![Skärmbild 2024-04-15 222647](https://github.com/yasin2401/your-salon-website-03/assets/156914039/68fbad53-c683-41b1-b40d-c8d69c8c734a)
+
+# Testing
+I have tested the page in different browsers: Chrome, Safari, Brave, Firefox.
+The site has also been tested on different devices to ensure that the site's performance and appearance are up to standard: iPhone, iPad, Windows, MacBook.
+
+# Validator Testing
+* HTML
+  * No errors where returned when passing through the offical W3C validator
+* css
+  * No errors were found when passing the official (jigsaw) validator
+
+
+      * Desktop
+        ![Skärmbild 2024-04-15 203810](https://github.com/yasin2401/your-salon-website-03/assets/156914039/c7f17d48-3991-44f7-805e-c817023ba174)
+
+        * Mobile
+        ![Skärmbild 2024-04-15 203739](https://github.com/yasin2401/your-salon-website-03/assets/156914039/b034e24e-99fe-4c5c-9ec8-f97d815809a3)
+
+
+# Unfixed Bugs
+None
+
+# Deployment
+The live link can be found here: https://chimerical-travesseiro-697019.netlify.app/
+
+# Credit 
+Content
+* The code to make the social links where taken from the CI Love Running Project as well as the form element for the booking page.
+
+# Media
+All images are taken from google.
+
+
+
 
 
